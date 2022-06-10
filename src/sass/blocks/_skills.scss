@@ -1,0 +1,36 @@
+.skills {
+	padding: 120px 0 120px 0;
+	position: relative;
+	&__wrapper {
+		margin-top: 60px;
+		display: grid;
+		grid-gap: 13px;
+		grid-template-columns: auto auto auto auto;
+	}
+	&__info {
+		position: relative;
+		width: 270px;
+		height: 270px;
+		border: 1px solid black;
+		&-icon {
+			position: absolute;
+			top: 30px;
+			left: 30px;
+		}
+		&-text {
+			width: 211px;
+			height: 95px;
+			position: absolute;
+			left: 30px;
+			top: 151px;
+			font-size: 12px;
+			line-height: 18px;
+		}
+	}
+	&__title {
+		position: absolute;
+		top: 115px;
+		left: 30px;
+	}
+}
+

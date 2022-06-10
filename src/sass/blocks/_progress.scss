@@ -1,0 +1,33 @@
+.progress {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        gap: 45px;
+    }
+    &__item {
+        position: relative;
+        &-title {
+            position: relative;
+            text-align: start;
+            margin-left: 14px;
+            @include before_circle;
+            &:before {
+                position: absolute;
+                top: -8px;
+                left:-14px;
+            }
+        }
+        &-interest {
+            position: absolute;
+            right: 0;
+            top: 1px;
+        }
+        &-downloads {
+            margin-top: 27px;
+            width: 350px;
+            height: 14px;
+            background: $main-color;
+            border-radius: 4px;
+        }
+    }
+}
