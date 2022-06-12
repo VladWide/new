@@ -1,0 +1,22 @@
+.policy {
+    padding: 60px;
+    .col {
+        text-align: center;
+        margin-top: 25px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    .descr {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        span {
+            font-weight: 700;
+            font-size: 15px;
+        }
+    }
+}
