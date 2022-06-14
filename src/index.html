@@ -165,7 +165,7 @@
             </div>
         </div>
     </section>
-    <!-- <section class="resume">
+    <section class="resume">
         <div class="container">
             <h2 class="tittle title_fs16 resume__title">Опыт</h2>
             <div class="title title_fs36 resume__subtitle">Чем я буду полезен</div>
@@ -239,8 +239,8 @@
                 </div>
             </div>
         </div>
-    </section> -->
-    <!-- <section class="skills">
+    </section> 
+     <section class="skills">
         <div class="container">
             <h2 class="tittle title_fs16 resume__title">Навыки</h2>
             <div class="title title_fs36 resume__subtitle">Что я использую в работе</div>
@@ -311,8 +311,8 @@
                 </div> 
             </div>
         </div>
-    </section> -->
-    <!-- <section class="progress">
+    </section> 
+     <section class="progress"> 
         <div class="container">
             <div class="progress__wrapper">
                 <div class="progress__item">
@@ -359,8 +359,8 @@
                 </div>
             </div>
         </div>
-    </section> -->
-    <!-- <section class="portfolio">
+    </section> 
+     <section class="portfolio">
         <div class="container">
             <h2 class="tittle title_fs16 resume__title">Портфолио</h2>
             <div class="title title_fs36 resume__subtitle">Мои работы</div>
@@ -375,19 +375,27 @@
                 <a href="#" class="portfolio__item">
                     <img src="img/works/bread.jpg" alt="bread">
                 </a>
-                <a href="#" class="portfolio__item vertical">
-                    <img src="img/works/plans.jpg" alt="plans">
-                </a>             
+                    <a href="#" class="portfolio__item vertical">
+                        <picture>
+                        <source media="(max-width: 1200px)" srcset="img/works/plans.png">
+                        <img src="img/works/plans.jpg" alt="plans">
+                        </picture> 
+                </a> 
+                           
                 <a href="#" class="portfolio__item">
                     <img src="img/works/ipad.jpg" alt="uber">
                 </a>
                 <a href="#" class="portfolio__item horizonal">
-                    <img src="img/works/mac.jpg" alt="mac">
+                    <picture>
+                        <source media="(max-width: 1200px)" srcset="img/works/mac.png">
+                        <img src="img/works/mac.jpg" alt="mac">
+                    </picture>
+                    
                   </a>
             </div>
         </div>
-    </section> -->
-    <!-- <section class="price">
+    </section> 
+    <section class="price">
         <div class="container">
             <h2 class="tittle title_fs16 resume__title">Прайс-лист</h2>
             <div class="divider"></div>
@@ -433,12 +441,12 @@
                 </div>
             </div>
         </div>
-    </section> -->
-    <!-- <section class="contacts">
+    </section> 
+     <section class="contacts"> 
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="contacts__photo">
-                    <img src="img/work/2.jpg" alt="photo">
+                        <img src="img/work/2.jpg" alt="photo">                    
                 </div>
                 <div class="contacts__descr">
                 <h2 class="title title_fs16 contacts__title">Контакты</h2>
@@ -481,7 +489,7 @@
                 </div>
             </div>
         </div>
-    </section>  -->
+    </section> 
     <script src="js/script.js"></script>
 </body>
 </html>
